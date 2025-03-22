@@ -1,7 +1,7 @@
-import { Stack } from 'expo-router'
 import React from 'react'
+import { Stack } from 'expo-router'
 
-const NoteLayout = () => {
+const AuthLayout = () => {
   return (
     <Stack
       screenOptions={{
@@ -11,4 +11,4 @@ const NoteLayout = () => {
   )
 }
 
-export default NoteLayout
+export default AuthLayout
